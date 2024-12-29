@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "AI Dashboard",
+  "version": "1.0",
+  "description": "Quick access to AI tools and resources",
+  "action": {
+    "default_popup": "my-ai-dashboard.html",
+    "default_icon": {
+      "16": "icons/icons8-ai-16.png",
+      "48": "icons/icons8-ai-48.png",
+      "128": "icons/icons8-ai-128.png"
+    }
+  },
+  "chrome_url_overrides": {
+    "newtab": "my-ai-dashboard.html"
+  },
+  "icons": {
+    "16": "icons/icons8-ai-16.png",
+    "48": "icons/icons8-ai-48.png",
+    "128": "icons/icons8-ai-128.png"
+  },
+  "permissions": []
+} 
